@@ -1,0 +1,112 @@
+*{  
+            margin: 0px;  
+            padding: 0px;  
+        } 
+.login form, .reg form {
+    position: fixed;
+    top: 7%;
+    right: 140px;
+    padding: 20px 0;
+    z-index: 10;
+    background-color:rgba(0,0,0,0.01);
+    padding-left: 50px;
+}
+video{  
+            position: fixed;  
+            right: 0px;  
+            bottom: 0px;  
+            min-width: 100%;  
+            min-height: 100%;  
+            height: auto;  
+            width: auto;  
+            /*加滤镜*/
+            /*filter: blur(15px); //背景模糊设置 */
+            /*-webkit-filter: grayscale(100%);*/  
+            /*filter:grayscale(100%); //背景灰度设置*/  
+            z-index:-11
+        }  
+  source{  
+            min-width: 100%;  
+            min-height: 100%;  
+            height: auto;  
+            width: auto;  
+  } 
+
+.login form {
+    top: 18%;
+    width: 440px;
+    height: 310px;
+}
+
+.reg form {
+    width: 500px;
+    background: #fff;
+}
+
+.reg form h1, .login form h1 {
+   
+    padding-bottom: 20px;
+}
+
+.reg form p, .login form p {
+    margin-top: 15px;
+}
+
+.reg form a.off, .login form a.off {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.reg form input, .login form input {
+    width: 130px;
+    height: 20px;
+    border-radius: 3px;
+}
+
+.reg form input[type="text"], .login form input[type="text"] {
+    border: 1px solid #dbdbdb;
+    font-size: 10px;
+    padding-left: 10px;
+}
+
+.reg input[type="submit"], .login input[type="submit"] {
+    width: 280px;
+    background: #C10000;
+    font-size: 10px;
+    border: none;
+    color: #fff;
+}
+
+div.reg form input.code {
+    width: 150px;
+}
+
+div.reg form p.txtL {
+    text-align: left;
+}
+
+div.reg form p.txtL img {
+    width: 100px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+div.reg form p.txtL a {
+    color: #c10000;
+}
+
+.reg form p.txt, .login form p.txt {
+    width: 280px;
+    text-align: right;
+}
+
+.reg p.txt a, .login p.txt a, {
+    color: #666;
+    text-decoration: underline;
+}
+
+div.login form p.txt a {
+    margin-left: 20px;
+    cursor: pointer;
+}
